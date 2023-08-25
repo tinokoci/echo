@@ -10,3 +10,5 @@ plugins {
 }
 
 rootProject.name = "echo"
+include("client")
+include("server")

@@ -3,7 +3,7 @@ plugins {
     application
 }
 
-group = "dev.valentino.echo"
+group = "dev.valentino.echo.client"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -11,13 +11,4 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-}
-
-tasks.test {
-    useJUnitPlatform()
-}
-
-kotlin {
-    jvmToolchain(17)
 }
